@@ -1,29 +1,49 @@
 /* main.css */
 body {
-    background: rgb(0, 0, 0);
-    margin: 25%;
+    background: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    
 }
 h1 {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 2.5em;
-    color: FireBrick;
+    color: rgb(0, 0, 0);
 }
 p {
     font-family: Georgia, serif;
     font-size: 1.2em;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .box {
-    background-color: rgb(48, 48, 48);
+    background-color: #d9d9d9;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15%;
+    margin-bottom: 20%;
 }
 
 .content {
-    display: flex;
+    display:flex;
     justify-content: center;
 }
 
 hr {
     margin: 2%;
     /* border: 1 white; */
+}
+
+#titleheader {
+    top: 0px !important; 
+    margin-top: 0px !important;
+    padding-top: 0 !important;
+    height: 18%;
+    background-color: #d9d9d9;
+    border-bottom: 1% black;
+    justify-content: center;
+}
+
+.searchbox {
+    height: 10%;
 }
